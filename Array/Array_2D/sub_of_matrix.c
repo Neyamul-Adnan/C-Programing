@@ -18,6 +18,7 @@ int main()
     int m1[r][c], m2[r][c], m3[r][c];
 
     printf("Enter 1st matrix:\n");
+    printf("please enter a valid matrix");
     for (i = 0; i < r; i++)
     {
       for (j = 0; j < c; j++)
@@ -49,3 +50,4 @@ int main()
 
     return 0;
 }
+
